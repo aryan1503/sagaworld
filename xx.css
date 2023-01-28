@@ -6,18 +6,22 @@
     
 }
 body{
-    background-color: #3C2A21;
-}
-a:visited{
-    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #FFFBF5;
 }
 .navbar{
     height: 60px;
     width: 100%;
     display: flex;
     align-items: center;
-    background-color: #1A120B;
-    color: #E5E5CB;
+    background-color: #F7EFE5;
+    color: #674188;
+}
+a{
+    text-decoration: none;
+    color: #674188;
 }
 .logo{
     margin: 2px 2px;
@@ -33,4 +37,32 @@ a:visited{
 }
 .items{
     margin: 15px;
+}
+.main-body{
+    display: flex;
+}
+.mid{
+    
+    height: auto;
+    width: 70%;
+    border: 1px solid white;
+}
+.side{
+    width: 15%;
+}
+.foot{
+    margin-top: auto;
+    background-color:#F7EFE5 ;
+    height: 50px;
+    width: 100%;
+    display: flex;
+}
+.footmid{
+    display: flex;
+    justify-content: center;
+}
+.mediaimg{
+    margin: 5px;
+    height: 40px;
+    width: 40px;
 }
