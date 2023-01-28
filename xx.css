@@ -1,0 +1,36 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    
+}
+body{
+    background-color: #3C2A21;
+}
+a:visited{
+    text-decoration: none;
+}
+.navbar{
+    height: 60px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: #1A120B;
+    color: #E5E5CB;
+}
+.logo{
+    margin: 2px 2px;
+}
+.logo{
+    width: 20%;
+}
+.nav-items{
+    width: 80%;
+    justify-content: right;
+    margin: 2px;
+    display: flex;
+}
+.items{
+    margin: 15px;
+}
